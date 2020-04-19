@@ -22,7 +22,7 @@
 myName="apt-mirror-benchmark"
 
 # FIXME: Set this in init phase
-DISTRO="$(grep -o "^ID=.*" /etc/os-release)"
+DISTRO=$(grep -o "^ID=.*" /etc/os-release)"
 
 # In case we want to change the location (supported by apt)
 targetList="/etc/apt/sources.list"
